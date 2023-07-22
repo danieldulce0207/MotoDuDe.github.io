@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -95,8 +98,8 @@
     
     <header>
         <?php
-            session_start();
-            require dirname(__DIR__).('/technopreneurship/navigation.php');
+            
+            require 'navigation.php';
             //require 'products.php'
 
             require_once 'products.php'; // Assuming you have products.php file with $products array
@@ -259,7 +262,7 @@
 
     <footer class="footer">
         <?php
-            require dirname(__DIR__).('/technopreneurship/footer.php');
+            require 'footer.php';
         ?>
     </footer>
 </body>

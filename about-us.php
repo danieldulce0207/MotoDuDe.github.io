@@ -53,7 +53,7 @@ session_start();
 <body>
     <header>
         <?php
-            require dirname(__DIR__).('/technopreneurship/navigation.php');
+            require 'navigation.php'
         ?>
         
     </header>
@@ -74,7 +74,7 @@ session_start();
 
     <footer class="footer">
         <?php
-            require dirname(__DIR__).('/technopreneurship/footer.php');
+            require 'footer.php';
         ?>
     </footer>
 </body>

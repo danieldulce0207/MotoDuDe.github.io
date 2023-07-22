@@ -9,7 +9,7 @@
         display: inline-block;
         width: 24px;
         height: 24px;
-        background-image: url('/technopreneurship/assets/shopping-cart-icon.png');
+        background-image: url('/assets/shopping-cart-icon.png');
         background-size: cover;
     }
 

@@ -93,7 +93,7 @@ if (isset($_GET['id'])) {
 <body>
     <header>
         <?php
-            require dirname(__DIR__).('/technopreneurship/navigation.php');
+            require 'navigation.php';
         ?>
         
     </header>
@@ -155,7 +155,7 @@ if (isset($_GET['id'])) {
 
     <footer class="footer">
         <?php
-            require dirname(__DIR__).('/technopreneurship/footer.php');
+            require 'footer.php';
         ?>
     </footer>
 </body>
